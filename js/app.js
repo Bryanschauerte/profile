@@ -4,19 +4,15 @@ var app = angular.module('profileApp', ['ngRoute', 'ngMaterial'])
 
   $routeProvider
     .when('/home', {
-      templateUrl: '/templates/home.html'
+      templateUrl: '../templates/home.html'
     })
-    .when('/classes', {
-      templateUrl: '/templates/smallProject.html'
-      // resolve: {
-      //   user: getAuth
-      // }
+    .when('/smallProjects', {
+      templateUrl: '../templates/smallProject.html'
+
     })
-    .when('/account', {
-      templateUrl: '/templates/largeProject.html'
-      // resolve: {
-      //   user: getAuth
-      // }
+    .when('/largeProjects', {
+      templateUrl: '../templates/largeProject.html'
+
     })
     .otherwise({
       redirectTo: '/home'
