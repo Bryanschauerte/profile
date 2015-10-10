@@ -2,21 +2,19 @@ var app = angular.module('profileApp', ['ngRoute', 'ngMaterial'])
 .config(function($routeProvider, $mdThemingProvider){
 
 
+
+
   $routeProvider
     .when('/home', {
-      templateUrl: '/templates/home.html'
+      templateUrl: 'http://bryanschauerte.github.io/templates/home.html'
     })
     .when('/smallProject', {
-      templateUrl: '/templates/smallProject.html'
-      // resolve: {
-      //   user: getAuth
-      // }
+      templateUrl: 'http://bryanschauerte.github.io/templates/smallProject.html'
+
     })
     .when('/largeProject', {
-      templateUrl: '/templates/largeProject.html'
-      // resolve: {
-      //   user: getAuth
-      // }
+      templateUrl: 'http://bryanschauerte.github.io/templates/largeProject.html'
+
     })
     .otherwise({
       redirectTo: '/home'
@@ -45,4 +43,9 @@ var app = angular.module('profileApp', ['ngRoute', 'ngMaterial'])
               });
 
 
-})
+});
+  app.config([
+    '$interpolateProvider', function($interpolateProvider) {
+      return $interpolateProvider.startSymbol('{(').endSymbol(')}');
+    }
+  ]);
