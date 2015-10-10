@@ -9,11 +9,11 @@ var app = angular.module('profileApp', ['ngRoute', 'ngMaterial'])
       templateUrl: '../templates/home.html'
     })
     .when('/smallProject', {
-      templateUrl: './templates/smallProject.html'
+      templateUrl: '../templates/smallProject.html'
 
     })
     .when('/largeProject', {
-      templateUrl: './templates/largeProject.html'
+      templateUrl: '../templates/largeProject.html'
 
     })
     .otherwise({
