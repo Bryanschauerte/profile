@@ -5,19 +5,19 @@ var app = angular.module('profileApp', ['ngRoute', 'ngMaterial'])
 
 
   $routeProvider
-    .when('/home', {
-      templateUrl: 'http://bryanschauerte.github.io/templates/home.html'
+    .when('/', {
+      templateUrl: '../templates/home.html'
     })
     .when('/smallProject', {
-      templateUrl: 'http://bryanschauerte.github.io/templates/smallProject.html'
+      templateUrl: './templates/smallProject.html'
 
     })
     .when('/largeProject', {
-      templateUrl: 'http://bryanschauerte.github.io/templates/largeProject.html'
+      templateUrl: './templates/largeProject.html'
 
     })
     .otherwise({
-      redirectTo: '/home'
+      redirectTo: '/'
     }),
 
 
@@ -49,3 +49,7 @@ var app = angular.module('profileApp', ['ngRoute', 'ngMaterial'])
       return $interpolateProvider.startSymbol('{(').endSymbol(')}');
     }
   ]);
+
+  app.config(function ($locationProvider) {
+  $locationProvider.html5Mode(true);
+});

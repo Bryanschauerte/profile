@@ -1,4 +1,5 @@
 <html ng-app="profileApp">
+<base href="/" />
 <head>
   <title>Bryan Schauerte</title>
 
@@ -44,7 +45,10 @@
 
         </div>
       </footer>
-
+      <script type="text/javascript">
+              var url = window.location.protocol + '//' + window.location.host + '/#' + window.location.pathname;
+              window.location.replace(url);
+          </script>
       <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.6/angular.min.js"></script>
       <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.6/angular-animate.min.js"></script>
       <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.6/angular-aria.min.js"></script>
