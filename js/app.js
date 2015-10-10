@@ -6,13 +6,13 @@ var app = angular.module('profileApp', ['ngRoute', 'ngMaterial'])
     .when('/home', {
       templateUrl: '/templates/home.html'
     })
-    .when('/classes', {
+    .when('/smallProject', {
       templateUrl: '/templates/smallProject.html'
       // resolve: {
       //   user: getAuth
       // }
     })
-    .when('/account', {
+    .when('/largeProject', {
       templateUrl: '/templates/largeProject.html'
       // resolve: {
       //   user: getAuth
