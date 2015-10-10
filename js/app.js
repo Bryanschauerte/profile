@@ -5,14 +5,14 @@ var app = angular.module('profileApp', ['ngRoute', 'ngMaterial'])
 
 
   $routeProvider
-    .when('/', {
+    .when('/home', {
       templateUrl: '../templates/home.html'
     })
-    .when('/smallProject', {
+    .when('/smallProjects', {
       templateUrl: '../templates/smallProject.html'
 
     })
-    .when('/largeProject', {
+    .when('/largeProjects', {
       templateUrl: '../templates/largeProject.html'
 
     })
@@ -44,12 +44,12 @@ var app = angular.module('profileApp', ['ngRoute', 'ngMaterial'])
 
 
 });
-  app.config([
-    '$interpolateProvider', function($interpolateProvider) {
-      return $interpolateProvider.startSymbol('{(').endSymbol(')}');
-    }
-  ]);
-
-  app.config(function ($locationProvider) {
-  $locationProvider.html5Mode(true);
-});
+//   app.config([
+//     '$interpolateProvider', function($interpolateProvider) {
+//       return $interpolateProvider.startSymbol('{(').endSymbol(')}');
+//     }
+//   ]);
+//
+//   app.config(function ($locationProvider) {
+//   $locationProvider.html5Mode(true);
+// });
