@@ -6,14 +6,16 @@ var app = angular.module('profileApp', ['ngRoute', 'ngMaterial'])
 
   $routeProvider
     .when('/home', {
-      templateUrl: '../templates/home.html'
+
+      templateUrl: 'templates/home.html'
     })
     .when('/smallProjects', {
-      templateUrl: '../templates/smallProject.html'
+      templateUrl: 'templates/smallProject.html'
 
     })
     .when('/largeProjects', {
-      templateUrl: '../templates/largeProject.html'
+      templateUrl: 'templates/largeProject.html'
+
 
     })
     .otherwise({
