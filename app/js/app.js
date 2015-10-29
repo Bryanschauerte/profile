@@ -19,7 +19,7 @@ var app = angular.module('profileApp', ['ngRoute', 'ngMaterial'])
 
     })
     .otherwise({
-      redirectTo: '/'
+      redirectTo: '/home'
     }),
 
 
