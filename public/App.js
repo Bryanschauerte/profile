@@ -1,4 +1,4 @@
-var app = angular.module('profileApp', ['ngRoute', 'ngMaterial'])
+var App = angular.module('profileApp', ['ngRoute', 'ngMaterial'])
 .config(function($routeProvider, $mdThemingProvider){
 
 
@@ -7,14 +7,14 @@ var app = angular.module('profileApp', ['ngRoute', 'ngMaterial'])
   $routeProvider
     .when('/home', {
 
-      templateUrl: 'templates/home.html'
+      templateUrl: './app/views/home.html'
     })
     .when('/smallProjects', {
-      templateUrl: 'templates/smallProject.html'
+      templateUrl: './app/views/smallProject.html'
 
     })
     .when('/largeProjects', {
-      templateUrl: 'templates/largeProject.html'
+      templateUrl: './app/views/largeProject.html'
 
 
     })
