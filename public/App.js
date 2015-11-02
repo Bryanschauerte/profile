@@ -9,11 +9,11 @@ var App = angular.module('profileApp', ['ngRoute', 'ngMaterial'])
 
       templateUrl: './app/views/home.html'
     })
-    .when('/smallProjects', {
+    .when('/Technology', {
       templateUrl: './app/views/smallProject.html'
 
     })
-    .when('/largeProjects', {
+    .when('/Projects', {
       templateUrl: './app/views/largeProject.html'
 
 
@@ -26,22 +26,22 @@ var App = angular.module('profileApp', ['ngRoute', 'ngMaterial'])
 
   $mdThemingProvider.theme('default')
               .primaryPalette('deep-purple', {
-                'default': '100',
-                'hue-1': '300',
-                'hue-2': '600',
-                'hue-3': '900'
+                'default': '500', //#673AB7
+                'hue-1': '400', //#7E57C2
+                'hue-2': '200', //#B39DDB
+                'hue-3': '50' //#EDE7F6
               })
-              .backgroundPalette('blue-grey', {
-                'default': '50',
-                'hue-1': '100',
-                'hue-2': '600',
-                'hue-3': 'A100'
+              .backgroundPalette('red', {
+                'default': '500', //#F44336
+                'hue-1': '400',//#EF5350
+                'hue-2': '300', //#E57373
+                'hue-3': '100' //#FFCDD2
               })
               .accentPalette('brown', {
-                'default': '300',
-                'hue-1': '100',
-                'hue-2': '600',
-                'hue-3': 'A100'
+                'default': '400', //#8D6E63
+                'hue-1': '200',  //#BCAAA4
+                'hue-2': '100',  //#D7CCC8
+                'hue-3': '50'   //#EFEBE9
               });
 
 

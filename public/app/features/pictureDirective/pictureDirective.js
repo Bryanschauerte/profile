@@ -1,7 +1,7 @@
 angular.module('profileApp').directive('pictureDirective', function(){
 
   return {
-    templateUrl: "./app/features/pictureDirective.html",
+    templateUrl: "./app/features/pictureDirective/pictureDirective.html",
     controller: 'pictureDirectiveCtrl',
     controllerAs: 'pd',
     bindToController: true,

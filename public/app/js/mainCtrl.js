@@ -1,6 +1,6 @@
 var app = angular.module('profileApp').controller('mainCtrl', function($scope){
 
-$scope.test = "askdjflasdjflaksdjflk";
+
 
   $scope.pictureToShow = "./images/IMG_1067.jpg";
 
