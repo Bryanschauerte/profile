@@ -19,7 +19,7 @@ width: auto;
   height: 50px;
 }
 .backgroundImage {
-  background-image: url("./app/images/seoulll.jpg");
+  background-image: url("../images/seoul.jpg");
    background-size: cover;
 }
 
