@@ -1,6 +1,8 @@
 var app = angular.module('profileApp').controller('mainCtrl', function($scope){
 
 
+    $('.parallax').parallax();
+
 
   $scope.pictureToShow = "./images/IMG_1067.jpg";
 

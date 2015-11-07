@@ -10,17 +10,54 @@ width: auto;
 
 
 }
-.profilePicture {
-/*display: inline-block;*/
-
-}
-
-.PersonalInfo {
-/*display: inline-block;*/
-
+.fancyFont {
+  font-family: castellar;
 }
 .dContainer{
 
   width:100px;
   height: 50px;
+}
+.backgroundImage {
+  background-image: url("../images/seoul.jpg");
+   background-size: cover;
+}
+
+.homeHeader {
+  /*background-color: #F2F1F5;*/
+  margin-top: 5%;
+
+
+}
+.headerText {
+  font-weight: bold;
+  font-family: quasiparticles;
+  font-size: 40px;
+}
+
+.navBar{
+border-bottom: black solid 5px;
+}
+.flow-text {
+  font-family: quasiparticles;
+}
+.homeBox {
+  margin-top: 5%;
+}
+.skillText {
+/*margin-top: 3%;*/
+
+  background-color: #ACA1C0;
+}
+.bouncingBalls{
+  width: 100px;
+  Height:50px;
+}
+.rotateText {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.smallDirective{
+  margin-top: 5%;
 }
