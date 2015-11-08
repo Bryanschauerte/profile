@@ -31,23 +31,24 @@ width: auto;
 }
 .headerText {
   font-weight: bold;
-  font-family: quasiparticles;
+  font-family: castellar;
   font-size: 40px;
 }
 
 .navBar{
 border-bottom: black solid 5px;
+
 }
 .flow-text {
-  font-family: quasiparticles;
+  font-family: castellar;
 }
 .homeBox {
   margin-top: 5%;
 }
 .skillText {
-/*margin-top: 3%;*/
-
-  background-color: #ACA1C0;
+  margin-top: auto;
+  padding: 6px;
+  background-color: #673AB7;
 }
 .bouncingBalls{
   width: 100px;
@@ -60,4 +61,8 @@ border-bottom: black solid 5px;
 
 .smallDirective{
   margin-top: 5%;
+}
+
+.name {
+  margin-left: 2%;
 }
