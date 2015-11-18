@@ -23,6 +23,8 @@ var app = angular.module('profileApp').controller('mainCtrl', function($scope){
 
   }
 
+
+
 // ng-style="{'background-image': 'url(/styles/images/profile.png)'}"
 
 

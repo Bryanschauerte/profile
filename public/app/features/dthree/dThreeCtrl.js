@@ -1,7 +1,7 @@
 angular.module('profileApp').controller('dThreeCtrl', function() {
 
   var store = [];
-  for (var i = 0; i < 70; i++) {
+  for (var i = 0; i < 10; i++) {
     store.push(i);
   }
 
@@ -20,28 +20,30 @@ angular.module('profileApp').controller('dThreeCtrl', function() {
         .attr("cx", Math.random() * 200)
         .attr("cy", Math.random() * 200)
         .attr("r", function(d, i) {
-          return (Math.random() * 5) + 2 + "%";
-        })
+          return (Math.random() * 10) + 2 + "%";
+        });
     })
     .transition().each("end", function() {
       myTransf();
     });
 
 
+
   function myTransf() {
     baseBox.selectAll('circle').each(function() {
       d3.select(this)
 
-      .transition().duration(500)
-        .attr("cx", Math.random() * 200)
-        .attr("cy", Math.random() * 200)
+      .transition().duration(1000)
+        .attr("cx",  Math.max(5, Math.random() * 70))
+        .attr("cy", Math.max(5, Math.random() * 70))
         .each("end", function() {
+          // $interval(myTransf, 5000);
           myTransf();
-        })
-    })
-  };
+        });
+    });
+  }
 
 
 
 
-})
+});

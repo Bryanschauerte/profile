@@ -39,6 +39,11 @@ width: auto;
 border-bottom: black solid 5px;
 
 }
+.projectsInfo {
+  font-family: castellar;
+  font-size: 16px;
+}
+
 .flow-text {
   font-family: castellar;
 }
@@ -62,7 +67,9 @@ border-bottom: black solid 5px;
 .smallDirective{
   margin-top: 5%;
 }
-
+.profileHeader {
+  padding: 5px;
+}
 .name {
   margin-left: 2%;
 }
