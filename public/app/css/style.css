@@ -3,6 +3,13 @@ height: inherit;
 
 
 }
+.autoHeight {
+  height: 100%;
+}
+
+.boxHolder {
+  overflow: auto;
+}
 
 .profileBox{
 height: auto;
