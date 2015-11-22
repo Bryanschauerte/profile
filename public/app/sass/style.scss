@@ -1,0 +1,155 @@
+$accentPurple: #9068BE;
+$darkGrey: #55585D;
+$accentTeal: #6ED3CF;
+$accentRed: #E62739;
+$lightGrey: #E1E8F0;
+
+.greyColor{
+  background-color: $lightGrey;
+}
+.accentTeal{
+  background-color: $accentTeal;
+}
+.accentRed{
+  background-color: $accentRed;
+}
+.homeView{
+  background-color: $lightGrey;
+  // margin-left: 5%;
+  // margin-right: 5%;
+}
+.topText {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.parallax-container {
+  width: 100%;
+  z-index: 1;
+}
+.textColor {
+  color: $darkGrey;
+}
+.infoBoarderCard {
+  display: inline;
+
+}
+.topContainer{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.topBoarder {
+  width: 100%;
+  height: 5%;
+  background-color: $darkGrey;
+  // line-height: 5%;
+  display: flex;
+justify-content: center;
+  align-items: center;
+}
+.titleCard {
+  background-color: $accentTeal;
+}
+.infoBoarder {
+  width: 100%;
+  height: 20%;
+  display: inline-block;
+  background-color: $lightGrey;
+}
+.nameTag {
+  height: 80%;
+  width: 20%;
+  margin-left: 15%;
+  display: inline-block;
+  float: left;
+}
+.nameImg {
+  height: 100%;
+  width: 100%;
+  margin-top: 5%;
+  border-bottom: $accentTeal solid 5px;
+}
+.navBar {
+  border-bottom: $accentTeal solid 5px;
+  width: 100%;
+
+  // top: 30%;
+  // position: absolute;
+  left: 15%;
+  background-color: $lightGrey;
+}
+
+.infoFlip {
+  top: 70%;
+  right: 10%;
+  position: absolute;
+  z-index: 2;
+  background-color: $lightGrey;
+    border-bottom: $accentTeal solid 5px;
+  height: 10px;
+  width: auto;
+  padding: 5%;
+  border-radius: 3px;
+  line-height: 10px;
+}
+.autoHeight {
+  height: 100%;
+}
+.boxHolder {
+  overflow: auto;
+}
+.profileBox {
+  height: auto;
+  width: auto;
+}
+.fancyFont {
+  font-family: castellar;
+}
+.dContainer {
+  width: 100px;
+  height: 50px;
+}
+.headerText {
+  font-weight: bold;
+  font-family: castellar;
+  font-size: 40px;
+}
+body {
+
+  // position: relative;
+  // display: flex;
+  background-color: $lightGrey;
+}
+.projectsInfo {
+  font-family: castellar;
+  font-size: 16px;
+}
+.flow-text {
+  font-family: castellar;
+  color:$darkGrey;
+}
+.colorText {
+  color: $darkGrey;
+}
+.homeBox {
+  margin-top: 5%;
+}
+.skillText {
+  margin-top: auto;
+  padding: 6px;
+  background-color: $accentPurple;
+}
+.bouncingBalls {
+  width: 100px;
+  height: 50px;
+}
+.rotateText {
+  font-weight: bold;
+  font-size: 24px;
+}
+.profileHeader {
+  padding: 5px;
+}
+.name {
+  margin-left: 2%;
+}

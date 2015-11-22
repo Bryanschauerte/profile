@@ -3,7 +3,7 @@ var App = angular.module('profileApp', ['ngRoute', 'ngMaterial'])
 
 
 
-
+    // .when("/", {template: '<login-Page></login-Page>'})
   $routeProvider
     .when('/home', {
 

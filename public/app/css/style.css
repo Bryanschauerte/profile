@@ -1,82 +1,139 @@
-.profileImage {
-height: inherit;
+.greyColor {
+  background-color: #E1E8F0; }
 
+.accentTeal {
+  background-color: #6ED3CF; }
 
-}
-.autoHeight {
+.accentRed {
+  background-color: #E62739; }
+
+.homeView {
+  background-color: #E1E8F0; }
+
+.topText {
+  margin-left: 10%;
+  margin-right: 10%; }
+
+.parallax-container {
+  width: 100%;
+  z-index: 1; }
+
+.textColor {
+  color: #55585D; }
+
+.infoBoarderCard {
+  display: inline; }
+
+.topContainer {
+  width: 50%;
+  display: flex;
+  justify-content: space-between; }
+
+.topBoarder {
+  width: 100%;
+  height: 5%;
+  background-color: #55585D;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.titleCard {
+  background-color: #6ED3CF; }
+
+.infoBoarder {
+  width: 100%;
+  height: 20%;
+  display: inline-block;
+  background-color: #E1E8F0; }
+
+.nameTag {
+  height: 80%;
+  width: 20%;
+  margin-left: 15%;
+  display: inline-block;
+  float: left; }
+
+.nameImg {
   height: 100%;
-}
+  width: 100%;
+  margin-top: 5%;
+  border-bottom: #6ED3CF solid 5px; }
+
+.navBar {
+  border-bottom: #6ED3CF solid 5px;
+  width: 100%;
+  left: 15%;
+  background-color: #E1E8F0; }
+
+.infoFlip {
+  top: 70%;
+  right: 10%;
+  position: absolute;
+  z-index: 2;
+  background-color: #E1E8F0;
+  border-bottom: #6ED3CF solid 5px;
+  height: 10px;
+  width: auto;
+  padding: 5%;
+  border-radius: 3px;
+  line-height: 10px; }
+
+.autoHeight {
+  height: 100%; }
 
 .boxHolder {
-  overflow: auto;
-}
+  overflow: auto; }
 
-.profileBox{
-height: auto;
-width: auto;
+.profileBox {
+  height: auto;
+  width: auto; }
 
-
-}
 .fancyFont {
-  font-family: castellar;
-}
-.dContainer{
+  font-family: castellar; }
 
-  width:100px;
-  height: 50px;
-}
-.backgroundImage {
-  background-image: url("../images/Seoulll.jpg");
-   background-size: cover;
-}
+.dContainer {
+  width: 100px;
+  height: 50px; }
 
-.homeHeader {
-  /*background-color: #F2F1F5;*/
-  margin-top: 5%;
-
-
-}
 .headerText {
   font-weight: bold;
   font-family: castellar;
-  font-size: 40px;
-}
+  font-size: 40px; }
 
-.navBar{
-border-bottom: black solid 5px;
+body {
+  background-color: #E1E8F0; }
 
-}
 .projectsInfo {
   font-family: castellar;
-  font-size: 16px;
-}
+  font-size: 16px; }
 
 .flow-text {
   font-family: castellar;
-}
+  color: #55585D; }
+
+.colorText {
+  color: #55585D; }
+
 .homeBox {
-  margin-top: 5%;
-}
+  margin-top: 5%; }
+
 .skillText {
   margin-top: auto;
   padding: 6px;
-  background-color: #673AB7;
-}
-.bouncingBalls{
+  background-color: #9068BE; }
+
+.bouncingBalls {
   width: 100px;
-  Height:50px;
-}
+  height: 50px; }
+
 .rotateText {
   font-weight: bold;
-  font-size: 24px;
-}
+  font-size: 24px; }
 
-.smallDirective{
-  margin-top: 5%;
-}
 .profileHeader {
-  padding: 5px;
-}
+  padding: 5px; }
+
 .name {
-  margin-left: 2%;
-}
+  margin-left: 2%; }
+
+/*# sourceMappingURL=style.css.map */

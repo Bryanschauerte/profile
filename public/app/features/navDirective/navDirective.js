@@ -9,7 +9,7 @@ angular.module('profileApp').directive('navDirective', function(){
     scope: {
       props: "="
     }
-  }
+  };
 
 
-})
+});

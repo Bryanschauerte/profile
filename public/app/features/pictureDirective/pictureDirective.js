@@ -10,6 +10,6 @@ angular.module('profileApp').directive('pictureDirective', function(){
       props: "="
     }
 
-  }
+  };
 
-})
+});
