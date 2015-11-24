@@ -1,3 +1,9 @@
+.darkGreyColor {
+  background-color: #55585D; }
+
+.darGreyText {
+  color: #55585D; }
+
 .greyColor {
   background-color: #E1E8F0; }
 
@@ -6,9 +12,6 @@
 
 .accentRed {
   background-color: #E62739; }
-
-.homeView {
-  background-color: #E1E8F0; }
 
 .topText {
   margin-left: 10%;
@@ -65,18 +68,19 @@
   left: 15%;
   background-color: #E1E8F0; }
 
-.infoFlip {
-  top: 70%;
-  right: 10%;
+.infoFlipContainer {
+  border-radius: 10px;
+  height: 50%;
+  width: 40%;
   position: absolute;
-  z-index: 2;
-  background-color: #E1E8F0;
+  top: 60%;
+  right: 10%;
+  z-index: 2; }
+
+.infoFlip {
   border-bottom: #6ED3CF solid 5px;
-  height: 10px;
-  width: auto;
-  padding: 5%;
-  border-radius: 3px;
-  line-height: 10px; }
+  z-index: 2;
+  color: white; }
 
 .autoHeight {
   height: 100%; }
@@ -94,6 +98,9 @@
 .dContainer {
   width: 100px;
   height: 50px; }
+
+.projectCards {
+  height: 50%; }
 
 .headerText {
   font-weight: bold;
@@ -127,8 +134,7 @@ body {
   height: 50px; }
 
 .rotateText {
-  font-weight: bold;
-  font-size: 24px; }
+  font-weight: bold; }
 
 .profileHeader {
   padding: 5px; }

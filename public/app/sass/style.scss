@@ -1,9 +1,15 @@
 $accentPurple: #9068BE;
-$darkGrey: #55585D;
+$darkGreyColor: #55585D;
 $accentTeal: #6ED3CF;
 $accentRed: #E62739;
 $lightGrey: #E1E8F0;
 
+.darkGreyColor {
+  background-color: $darkGreyColor;
+}
+.darGreyText {
+  color: $darkGreyColor;
+}
 .greyColor{
   background-color: $lightGrey;
 }
@@ -13,11 +19,11 @@ $lightGrey: #E1E8F0;
 .accentRed{
   background-color: $accentRed;
 }
-.homeView{
-  background-color: $lightGrey;
-  // margin-left: 5%;
-  // margin-right: 5%;
-}
+// .homeView{
+//   background-color: $lightGrey;
+//   // margin-left: 5%;
+//   // margin-right: 5%;
+// }
 .topText {
   margin-left: 10%;
   margin-right: 10%;
@@ -27,7 +33,7 @@ $lightGrey: #E1E8F0;
   z-index: 1;
 }
 .textColor {
-  color: $darkGrey;
+  color: $darkGreyColor;
 }
 .infoBoarderCard {
   display: inline;
@@ -41,7 +47,7 @@ $lightGrey: #E1E8F0;
 .topBoarder {
   width: 100%;
   height: 5%;
-  background-color: $darkGrey;
+  background-color: $darkGreyColor;
   // line-height: 5%;
   display: flex;
 justify-content: center;
@@ -78,19 +84,29 @@ justify-content: center;
   left: 15%;
   background-color: $lightGrey;
 }
-
-.infoFlip {
-  top: 70%;
-  right: 10%;
+.infoFlipContainer{
+  // padding: 5%;
+  border-radius: 10px;
+    // border-bottom: $accentTeal solid 5px;
+  // line-height: 10px;
+  height: 50%;
+  // display: flex;
+  // align-items: center;
+  width: 40%;
   position: absolute;
+  top: 60%;
+  right: 10%;
+    z-index: 2;
+}
+.infoFlip {
+border-bottom: $accentTeal solid 5px;
+  // position: absolute;
   z-index: 2;
-  background-color: $lightGrey;
-    border-bottom: $accentTeal solid 5px;
-  height: 10px;
-  width: auto;
-  padding: 5%;
-  border-radius: 3px;
-  line-height: 10px;
+  color: white;
+  // border-bottom: $accentTeal solid 5px;
+  // height: 10px;
+  // width: 200px;
+
 }
 .autoHeight {
   height: 100%;
@@ -109,6 +125,9 @@ justify-content: center;
   width: 100px;
   height: 50px;
 }
+.projectCards {
+  height: 50%;
+}
 .headerText {
   font-weight: bold;
   font-family: castellar;
@@ -126,10 +145,10 @@ body {
 }
 .flow-text {
   font-family: castellar;
-  color:$darkGrey;
+  color:$darkGreyColor;
 }
 .colorText {
-  color: $darkGrey;
+  color: $darkGreyColor;
 }
 .homeBox {
   margin-top: 5%;
@@ -145,7 +164,7 @@ body {
 }
 .rotateText {
   font-weight: bold;
-  font-size: 24px;
+  // font-size: 24px;
 }
 .profileHeader {
   padding: 5px;

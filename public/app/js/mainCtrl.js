@@ -6,10 +6,10 @@ var app = angular.module('profileApp').controller('mainCtrl', function($scope){
     console.log("para done");
   });
 
-  $(".rotate").textrotator({
-    animation: "spin", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
-    separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
-    speed: 1500 // How many milliseconds until the next word show.
+  $(".rotateOne").textrotator({
+    animation: "spin",
+    separator: ",",
+    speed: 1500 
   });
 
   $scope.pictureToShow = "./images/IMG_1067.jpg";
