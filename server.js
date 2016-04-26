@@ -10,11 +10,15 @@ app.use(bodyParser.json());
 app.use(express.static(__dirname + '/public'))
 app.use(cors());
 
-var config = module.exports = {};
-config.portNum = 80;
+// var config = module.exports = {};
+// config.portNum = 80;
+//
+// var portNum = config.portNum;
 
-var portNum = config.portNum;
+// app.listen(portNum, function () {
+//     console.log('Making some pancakes on port:', portNum);
+// });
 
-app.listen(portNum, function () {
-    console.log('Making some pancakes on port:', portNum);
+app.listen(port, function () {
+    console.log('Making some pancakes on port:', port);
 });
