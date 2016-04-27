@@ -1,29 +1,19 @@
 var App = angular.module('profileApp', ['ngRoute', 'ngMaterial'])
 .config(function($routeProvider, $mdThemingProvider){
 
-
-
-    // .when("/", {template: '<login-Page></login-Page>'})
   $routeProvider
     .when('/home', {
-
       templateUrl: './app/views/home.html'
     })
     .when('/Technology', {
       templateUrl: './app/views/smallProject.html'
-
     })
     .when('/Projects', {
       templateUrl: './app/views/largeProject.html'
-
-
     })
     .otherwise({
       redirectTo: '/home'
     }),
-
-
-
   $mdThemingProvider.theme('default')
               .primaryPalette('deep-purple', {
                 'default': '500', //#673AB7
@@ -44,14 +34,4 @@ var App = angular.module('profileApp', ['ngRoute', 'ngMaterial'])
                 'hue-3': '50'   //#EFEBE9
               });
 
-
 });
-//   app.config([
-//     '$interpolateProvider', function($interpolateProvider) {
-//       return $interpolateProvider.startSymbol('{(').endSymbol(')}');
-//     }
-//   ]);
-//
-//   app.config(function ($locationProvider) {
-//   $locationProvider.html5Mode(true);
-// });
